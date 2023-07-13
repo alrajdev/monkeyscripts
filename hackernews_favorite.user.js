@@ -13,8 +13,7 @@
   let sublines = document.querySelectorAll('.subtext > .subline')
   sublines.forEach((subline)=>{
     let flag_link = subline.childNodes[9].href
-    let post_id_and_auth = flag_link.split('?')[1]
-    post_id_and_auth = post_id_and_auth.replace('&goto=news', '')
-    subline.innerHTML = subline.innerHTML + '|' + ` <a href="fave?${post_id_and_auth}">favorite</a>`
+    let queries = flag_link.split('?')[1].split('&').filter((query)=> query.startsWith("id=") || query.startsWith("auth="))
+    subline.innerHTML = subline.innerHTML + '|' + ` <a href="fave?${queries.join('&')}">favorite</a>`
   })
 })()
