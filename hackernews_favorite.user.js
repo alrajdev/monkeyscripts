@@ -1,11 +1,17 @@
 // ==UserScript==
-// @name        Show favourite button under every post
-// @namespace   Violentmonkey Scripts
-// @match       https://news.ycombinator.com/news
-// @grant       none
+// @name        Hackernews favorite button
 // @version     1.0
-// @author      alrajkabeer
-// @description 13/07/2023, 12:42:14
+// @author      alrajdev
+// @namespace   https://alrajdev.github.io
+// @description Show favourite button under every post
+// @downloadURL https://github.com/alrajdev/monkeyscripts
+// @match       *://news.ycombinator.com/
+// @match       *://news.ycombinator.com/news
+// @match       *://news.ycombinator.com/newest
+// @match       *://news.ycombinator.com/front
+// @match       *://news.ycombinator.com/ask
+// @match       *://news.ycombinator.com/show
+// @grant       none
 // ==/UserScript==
 
 (function() {

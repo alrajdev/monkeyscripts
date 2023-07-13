@@ -1,8 +1,10 @@
 // ==UserScript==
-// @name        NovelUpdates Arrow navigation
-// @version     1
-// @namespace   alrajdev
-// @description NovelUpdates.com Series page navigation with left/right arrow
+// @name        NovelUpdates keyboard navigation
+// @version     1.0
+// @author      alrajdev
+// @namespace   https://alrajdev.github.io
+// @description NovelUpdates.com series page navigation with left/right keyboard arrow
+// @downloadURL https://github.com/alrajdev/monkeyscripts
 // @include     *www.novelupdates.com/series/*
 // @grant       none
 // ==/UserScript==
