@@ -5,7 +5,7 @@
 // @namespace   https://alrajdev.github.io
 // @description Show favourite button under every post
 // @downloadURL https://github.com/alrajdev/monkeyscripts/raw/master/hackernews_favorite.user.js
-// @homeURL     https://github.com/alrajdev/monkeyscripts
+// @homepageURL https://github.com/alrajdev/monkeyscripts
 // @match       *://news.ycombinator.com/
 // @match       *://news.ycombinator.com/news
 // @match       *://news.ycombinator.com/newest

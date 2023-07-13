@@ -5,7 +5,7 @@
 // @namespace   https://alrajdev.github.io
 // @description NovelUpdates.com series page navigation with left/right keyboard arrow
 // @downloadURL https://github.com/alrajdev/monkeyscripts/raw/master/novelupdates_keyboard_navigation.user.js
-// @homeURL     https://github.com/alrajdev/monkeyscripts
+// @homepageURL https://github.com/alrajdev/monkeyscripts
 // @include     *www.novelupdates.com/series/*
 // @grant       none
 // ==/UserScript==
